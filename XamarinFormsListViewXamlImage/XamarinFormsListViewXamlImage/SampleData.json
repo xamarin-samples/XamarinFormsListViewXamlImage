@@ -1,0 +1,24 @@
+﻿{
+	"MyListItemView.xaml": {
+		"Image": "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+		"Name": "TOM",
+		"State": "HELOOOOOOO"
+	},
+	"Page1.xaml": [
+		{
+			"Image": "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+			"Name": "TOM",
+			"State": "AAAAAAAAAAA"
+		},
+		{
+			"Image": "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+			"Name": "TOM",
+			"State": "BBBBBBBBBBBB"
+		},
+		{
+			"Image": "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+			"Name": "TOM",
+			"State": "CCCCCCCCCCCCC"
+		}
+	]
+}
