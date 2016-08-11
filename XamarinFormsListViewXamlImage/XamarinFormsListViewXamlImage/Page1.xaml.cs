@@ -13,6 +13,36 @@ namespace XamarinFormsListViewXamlImage
 		public Page1()
 		{
 			InitializeComponent();
+
+			// Make data list
+			List<ItemInfo> list = new List<ItemInfo>();
+			list.Add(
+				new ItemInfo
+				{
+					Image = "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+					Name = "John",
+					State = "Hello"
+				}
+			);
+			list.Add(
+				new ItemInfo
+				{
+					Image = "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+					Name = "Kei",
+					State = "こんにちは"
+				}
+			);
+			list.Add(
+				new ItemInfo
+				{
+					Image = "https://avatars0.githubusercontent.com/u/20608487?v=3&s=200",
+					Name = "Tama",
+					State = "(◔౪◔)"
+				}
+			);
+
+			// Bind
+			this.BindingContext = list;
 		}
 	}
 }
