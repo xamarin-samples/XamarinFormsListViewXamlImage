@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsListViewXamlImage.MyListItemView">
     <ContentView.Content>
-        <StackLayout Orientation="Horizontal" Padding="5">
-            <Image Source="{Binding Image}" WidthRequest="50" />
-            <Label Text="{Binding Name}" WidthRequest="100" />
-            <Label Text="{Binding State}" />
+        <StackLayout Orientation="Horizontal" Padding="10" VerticalOptions="Start"> <!-- BackgroundColor="#444" -->
+            <Image Source="{Binding Image}" WidthRequest="50" VerticalOptions="Start" />
+            <StackLayout Orientation="Vertical" Padding="10, 0, 0, 0">
+                <Label Text="{Binding Name}" />
+                <Label Text="{Binding State}" />
+            </StackLayout>
         </StackLayout>
     </ContentView.Content>
 </ContentView>
