@@ -2,6 +2,26 @@
 Sample: Using Xamarin.Forms.ListView on XAML, with outside custom ContentView.
 
 ## Pickuped code
+### Page1.xaml
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsListViewXamlImage.Page1"
+             xmlns:local="clr-namespace:XamarinFormsListViewXamlImage;assembly=XamarinFormsListViewXamlImage"
+             >
+    <ListView x:Name="mylist" ItemsSource="{Binding}" VerticalOptions="FillAndExpand" RowHeight="200" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <local:MyListItemView />
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
+```
+
 ### MyListItemView.xaml
 ```
 <?xml version="1.0" encoding="utf-8" ?>
