@@ -10,7 +10,7 @@ Sample: Using Xamarin.Forms.ListView on XAML, with outside custom ContentView.
              x:Class="XamarinFormsListViewXamlImage.Page1"
              xmlns:local="clr-namespace:XamarinFormsListViewXamlImage;assembly=XamarinFormsListViewXamlImage"
              >
-    <ListView x:Name="mylist" ItemsSource="{Binding}" VerticalOptions="FillAndExpand" RowHeight="200" HasUnevenRows="True">
+    <ListView x:Name="mylist" ItemsSource="{Binding}" VerticalOptions="FillAndExpand" HasUnevenRows="True">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
