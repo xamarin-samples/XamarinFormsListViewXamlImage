@@ -29,7 +29,7 @@ Sample: Using Xamarin.Forms.ListView on XAML, with outside custom ContentView.
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsListViewXamlImage.MyListItemView">
     <ContentView.Content>
-        <StackLayout Orientation="Horizontal" Padding="10" VerticalOptions="Start"> <!-- BackgroundColor="#444" -->
+        <StackLayout Orientation="Horizontal" Padding="10" VerticalOptions="Start">
             <Image Source="{Binding Image}" WidthRequest="50" VerticalOptions="Start" />
             <StackLayout Orientation="Vertical" Padding="10, 0, 0, 0">
                 <Label Text="{Binding Name}" />
