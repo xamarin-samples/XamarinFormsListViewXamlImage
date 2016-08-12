@@ -16,7 +16,7 @@ namespace XamarinFormsListViewXamlImage
 		private string RandomDup(string word)
 		{
 			string ret = word;
-			int n = m_random.Next() % 6;
+			int n = m_random.Next() % 10;
 			for (int i = 0; i < n; i++)
 			{
 				ret += "\n" + word;
